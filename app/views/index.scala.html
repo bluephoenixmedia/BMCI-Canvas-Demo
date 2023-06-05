@@ -2,11 +2,11 @@
 
 @main("Welcome") {
 @defining(play.core.PlayVersion.current) { version =>
-
 <section id="content">
   <div class="wrapper">
 
-      <div class="flex-container-top">
+
+    <div class="flex-container-top">
         <div class="img-container"><img src="assets/images/earth.png" /></div>
           <div>
               <strong>Ethos / Guiding Life Principles</strong><br /><br />
@@ -14,6 +14,36 @@
                 <li>What is the ethos and guiding principles of the organization?</li>
                 <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
               </ul>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ethosModal">Edit</button>
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="ethosModal" role="dialog">
+              <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Ethos / Guiding Life Principles</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form action="#">
+                      <div class="form-group">
+                        <label for="content">Update content:</label>
+                        <textarea class="form-control" id="ethosContent" rows="10">What is the ethos and guiding principles of the organization? How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)
+                        </textarea>
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
       </div>
 
@@ -25,6 +55,36 @@
             <li>High Reliability Access / Insight</li>
               <li>Process Improvement</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#purposeModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="purposeModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Aligned Shared Purpose</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="purposeContent" rows="10">High Reliability Access / Insight Process Improvement
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
 

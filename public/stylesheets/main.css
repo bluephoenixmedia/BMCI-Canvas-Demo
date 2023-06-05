@@ -7,7 +7,7 @@
  form legend{display:none;}
  blockquote:before,blockquote:after,q:before,q:after{content:"";}
  blockquote,q{quotes:"" "";}
- ol,ul{list-style:none;}
+ ol,ul{list-style:square;}
  hr{display:none;visibility:hidden;}
  :focus{outline:0;}
  article{}article h1,article h2,article h3,article h4,article h5,article h6{color:#333;font-weight:bold;line-height:1.25;margin-top:1.3em;}
@@ -81,12 +81,12 @@
 
   }
   .flex-container-top > div > p {
-        margin:5px;
+        margin:15px;
         text-align: left;
         font-size: 13px;
   }
   .flex-container-top > div > ul {
-        margin:5px;
+        margin:15px;
           text-align: left;
           font-size: 13px;
   }
@@ -96,10 +96,12 @@
 
   }
   .flex-container-mid > div > p {
+        margin:15px;
           text-align: left;
           font-size: 13px;
   }
   .flex-container-mid > div > ul {
+        margin:15px;
             text-align: left;
             font-size: 13px;
   }
@@ -109,10 +111,12 @@
 
  }
  .flex-container-bot > div > p {
+        margin:15px;
            text-align: left;
            font-size: 13px;
  }
  .flex-container-bot > div > ul {
+        margin:15px;
              text-align: left;
              font-size: 13px;
  }

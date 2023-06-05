@@ -26,11 +26,11 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*2.1*/("""
 """),_display_(/*3.2*/main("Welcome")/*3.17*/ {_display_(Seq[Any](format.raw/*3.19*/("""
 """),_display_(/*4.2*/defining(play.core.PlayVersion.current)/*4.41*/ { version =>_display_(Seq[Any](format.raw/*4.54*/("""
-
-"""),format.raw/*6.1*/("""<section id="content">
+"""),format.raw/*5.1*/("""<section id="content">
   <div class="wrapper">
 
-      <div class="flex-container-top">
+
+    <div class="flex-container-top">
         <div class="img-container"><img src="assets/images/earth.png" /></div>
           <div>
               <strong>Ethos / Guiding Life Principles</strong><br /><br />
@@ -38,6 +38,36 @@ Seq[Any](format.raw/*2.1*/("""
                 <li>What is the ethos and guiding principles of the organization?</li>
                 <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
               </ul>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ethosModal">Edit</button>
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="ethosModal" role="dialog">
+              <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Ethos / Guiding Life Principles</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form action="#">
+                      <div class="form-group">
+                        <label for="content">Update content:</label>
+                        <textarea class="form-control" id="ethosContent" rows="10">What is the ethos and guiding principles of the organization? How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)
+                        </textarea>
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
       </div>
 
@@ -49,6 +79,36 @@ Seq[Any](format.raw/*2.1*/("""
             <li>High Reliability Access / Insight</li>
               <li>Process Improvement</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#purposeModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="purposeModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Aligned Shared Purpose</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="purposeContent" rows="10">High Reliability Access / Insight Process Improvement
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
 
@@ -205,13 +265,13 @@ Seq[Any](format.raw/*2.1*/("""
 
      <!--
     <aside>
-      """),_display_(/*184.8*/commonSidebar()),format.raw/*184.23*/("""
-    """),format.raw/*185.5*/("""</aside>
+      """),_display_(/*244.8*/commonSidebar()),format.raw/*244.23*/("""
+    """),format.raw/*245.5*/("""</aside>
     -->
   </div>
 </section>
 
-""")))}),format.raw/*190.2*/("""
+""")))}),format.raw/*250.2*/("""
 """)))}))
       }
     }
@@ -229,9 +289,9 @@ Seq[Any](format.raw/*2.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: 76541bbb7cf0015785bbb2de98f695e2cefa0154
-                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1059->79|7849->6842|7886->6857|7919->6862|7989->6901
-                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|30->6|208->184|208->184|209->185|214->190
+                  HASH: 042ace1b610cae4b52b9deb2ff7f3129adc2eb83
+                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1058->78|10701->9694|10738->9709|10771->9714|10841->9753
+                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|29->5|268->244|268->244|269->245|274->250
                   -- GENERATED --
               */
           
