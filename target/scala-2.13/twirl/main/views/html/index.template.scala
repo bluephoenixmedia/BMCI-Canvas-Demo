@@ -28,10 +28,10 @@ Seq[Any](format.raw/*2.1*/("""
 """),_display_(/*4.2*/defining(play.core.PlayVersion.current)/*4.41*/ { version =>_display_(Seq[Any](format.raw/*4.54*/("""
 
 """),format.raw/*6.1*/("""<section id="content">
-  <div class="wrapper doc">
-    <article>
-      <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+  <div class="wrapper">
+
+      <div class="flex-container-top">
+        <div class="img-container"><img src="assets/images/earth.png" /></div>
           <div>
               <strong>Ethos / Guiding Life Principles</strong><br /><br />
               <ul>
@@ -40,10 +40,9 @@ Seq[Any](format.raw/*2.1*/("""
               </ul>
           </div>
       </div>
-    </article>
-    <article>
-      <div class="flex-container">
-        <div><img src="assets/images/purpose.png" /></div>
+
+      <div class="flex-container-top">
+        <div class="img-container"><img src="assets/images/purpose.png" /></div>
         <div><strong>Aligned Shared Purpose</strong>
         <br /><br />
           <ul>
@@ -52,20 +51,18 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article>
-    <article>
-      <div class="flex-container">
-        <div><img src="assets/images/governance.png" /></div>
+
+      <div class="flex-container-top">
+        <div class="img-container"><img src="assets/images/governance.png" /></div>
         <div><strong>Governance</strong><br /><br />
         <ul>
           <li>xxx</li>
           <li>xxx</li>
         </ul>
       </div>
-    </article>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/infra.png" /></div>
+      </div>
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/infra.png" /></div>
         <div>
           <strong>Infrastructure</strong><br /><br />
           <ul>
@@ -74,10 +71,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/method.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/method.png" /></div>
         <div>
           <strong>Methodologies</strong><br /><br />
           <ul>
@@ -86,10 +82,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/people.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/people.png" /></div>
         <div>
           <strong>People</strong><br /><br />
           <ul>
@@ -102,10 +97,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/collab.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/collab.png" /></div>
         <div>
           <strong>Collaboration Process</strong><br /><br />
           <ul>
@@ -116,10 +110,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/interact.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/interact.png" /></div>
         <div>
           <strong>Spaces of Interactions</strong><br /><br />
           <ul>
@@ -130,10 +123,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/machines_data.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/machines_data.png" /></div>
         <div>
           <strong>Machines & Data</strong><br /><br />
           <ul>
@@ -142,10 +134,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/tools.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/tools.png" /></div>
         <div>
           <strong>Collaboration Tools</strong><br /><br />
           <ul>
@@ -154,10 +145,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/team.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/team.png" /></div>
         <div>
           <strong>Team Composition</strong><br /><br />
           <ul>
@@ -167,10 +157,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/culture.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/culture.png" /></div>
         <div>
           <strong>Culture & Rules of Engagement</strong><br /><br />
           <ul>
@@ -179,10 +168,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article20>
-      <div class="flex-container">
-        <div><img src="assets/images/dynamics.png" /></div>
+
+      <div class="flex-container-mid">
+        <div class="img-container"><img src="assets/images/dynamics.png" /></div>
         <div>
           <strong>Team Dynamics</strong><br /><br />
           <ul>
@@ -192,10 +180,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article20>
-    <article50>
-      <div class="flex-container">
-        <div><img src="assets/images/challenge.png" /></div>
+
+      <div class="flex-container-bot">
+        <div class="img-container"><img src="assets/images/challenge.png" /></div>
         <div>
           <strong>Diagnosis of Challenge / Pains</strong><br /><br />
           <ul>
@@ -204,10 +191,9 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article50>
-    <article50>
-      <div class="flex-container">
-        <div><img src="assets/images/outcomes.png" /></div>
+
+      <div class="flex-container-bot">
+        <div class="img-container"><img src="assets/images/outcomes.png" /></div>
         <div>
           <strong>Desired Outcomes / Gains</strong><br /><br />
           <ul>
@@ -216,16 +202,16 @@ Seq[Any](format.raw/*2.1*/("""
           </ul>
         </div>
       </div>
-    </article50>
+
      <!--
     <aside>
-      """),_display_(/*198.8*/commonSidebar()),format.raw/*198.23*/("""
-    """),format.raw/*199.5*/("""</aside>
+      """),_display_(/*184.8*/commonSidebar()),format.raw/*184.23*/("""
+    """),format.raw/*185.5*/("""</aside>
     -->
   </div>
 </section>
 
-""")))}),format.raw/*204.2*/("""
+""")))}),format.raw/*190.2*/("""
 """)))}))
       }
     }
@@ -243,9 +229,9 @@ Seq[Any](format.raw/*2.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: c467606d3c48d25f8fd72ca05b71416c42cca685
-                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1059->79|7918->6911|7955->6926|7988->6931|8058->6970
-                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|30->6|222->198|222->198|223->199|228->204
+                  HASH: 76541bbb7cf0015785bbb2de98f695e2cefa0154
+                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1059->79|7849->6842|7886->6857|7919->6862|7989->6901
+                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|30->6|208->184|208->184|209->185|214->190
                   -- GENERATED --
               */
           
