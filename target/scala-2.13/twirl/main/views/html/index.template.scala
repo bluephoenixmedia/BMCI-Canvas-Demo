@@ -65,157 +65,167 @@ Seq[Any](format.raw/*2.1*/("""
     </article>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/infra.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Infrastructure</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What are the key components of the technology infrastructure?</li>
+            <li>What technologies are unique to the team?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/method.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Methodologies</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What methodologies and good practices are being used for conducting work and projects?</li>
+            <li>Are there any design methods, such as design thinking and nature-inspired design being used?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/people.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>People</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>Smart Team: [#, names]</li>
+            <li>Orchestrators:</li>
+            <li>Key Players in Team:</li>
+            <li>Community / Team Collective:</li>
+            <li>Organizational Key Players:</li>
+            <li>Organizational Stakeholders:</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/collab.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Collaboration Process</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What is the collaboration process?</li>
+            <li>How do team members work together?</li>
+            <li>Are all voices heard? Are team members responsive and ideate / problem -solve together effectively?</li>
+            <li>What may hinder collaboration and flow of interactions?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/interact.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Spaces of Interactions</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What are the physical spaces & locations where teams work, collaborate and gather?</li>
+            <li>What virtual spaces are used for teams to interact?</li>
+            <li>Physical:
+            <li>Virtual:</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/machines_data.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Machines & Data</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>How are machines, robotics, AI and data used and leveraged in the system?</li>
+            <li>What is unique to the team?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/tools.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Collaboration Tools</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What are key collaboration tools being used?</li>
+            <li>What other tools may be needed?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/team.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Team Composition</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What is the composition of the team in skills and diversity of backgrounds?</li>
+            <li>What skills may be missing for optimal team composition?</li>
+            <li>What is the optimal number of team members required to achieve goals?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/culture.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Culture & Rules of Engagement</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What kind of culture is fostered in the team? What are the formal and informal rules of engagement?</li>
+            <li>Is there open communication and a collaborative approach? Are there opportunities for social interactions?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article20>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/dynamics.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Team Dynamics</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What are the team dynamics within the team and across other teams?</li>
+            <li>Are there clusters of interactions? Are there strong or weak bonds within team?</li>
+            <li>Are there good connections across other teams?</li>
           </ul>
         </div>
       </div>
     </article20>
     <article50>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/challenge.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Diagnosis of Challenge / Pains</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What are the challenges at hand for the team?</li>
+            <li>What are the key pain points?</li>
           </ul>
         </div>
       </div>
     </article50>
     <article50>
       <div class="flex-container">
-        <div><img src="assets/images/earth.png" /></div>
+        <div><img src="assets/images/outcomes.png" /></div>
         <div>
-          <strong>Ethos / Guiding Life Principles</strong><br /><br />
+          <strong>Desired Outcomes / Gains</strong><br /><br />
           <ul>
-            <li>What is the ethos and guiding principles of the organization?</li>
-            <li>How does the organization ethos and guiding principles translate for the collective of teams? (E.g. focus may be Teamwork)</li>
+            <li>What are the desired outcomes of addressing the challenges?</li>
+            <li>What are the potential gains and benefits of improvement and transformation?</li>
           </ul>
         </div>
       </div>
     </article50>
      <!--
     <aside>
-      """),_display_(/*188.8*/commonSidebar()),format.raw/*188.23*/("""
-    """),format.raw/*189.5*/("""</aside>
+      """),_display_(/*198.8*/commonSidebar()),format.raw/*198.23*/("""
+    """),format.raw/*199.5*/("""</aside>
     -->
   </div>
 </section>
 
-""")))}),format.raw/*194.2*/("""
+""")))}),format.raw/*204.2*/("""
 """)))}))
       }
     }
@@ -233,9 +243,9 @@ Seq[Any](format.raw/*2.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: c188ed35497ee1f32748ed02f6c8eb37e5e43203
-                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1059->79|8253->7246|8290->7261|8323->7266|8393->7305
-                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|30->6|212->188|212->188|213->189|218->194
+                  HASH: c467606d3c48d25f8fd72ca05b71416c42cca685
+                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1059->79|7918->6911|7955->6926|7988->6931|8058->6970
+                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|30->6|222->198|222->198|223->199|228->204
                   -- GENERATED --
               */
           
