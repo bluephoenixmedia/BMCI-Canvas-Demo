@@ -1,5 +1,5 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/C:/play/test/test/conf/routes
+// @SOURCE:conf/routes
 
 import play.api.routing.JavaScriptReverseRoute
 

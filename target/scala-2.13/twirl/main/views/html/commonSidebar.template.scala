@@ -55,7 +55,7 @@ Seq[Any](_display_(/*2.2*/defining(play.core.PlayVersion.current)/*2.41*/ { vers
 
               /*
                   -- GENERATED --
-                  SOURCE: /C:/play/test/test/app/views/commonSidebar.scala.html
+                  SOURCE: app/views/commonSidebar.scala.html
                   HASH: 6e0f53fbacdbdc6075d2c6cd75940a300860e75f
                   MATRIX: 730->1|826->5|873->44|923->57|950->58|1024->106|1038->112|1081->135|1150->178|1164->184|1209->209|1283->257|1297->263|1343->289|1495->414|1523->421|2008->876
                   LINES: 21->1|26->2|26->2|26->2|27->3|29->5|29->5|29->5|30->6|30->6|30->6|31->7|31->7|31->7|35->11|35->11|41->17

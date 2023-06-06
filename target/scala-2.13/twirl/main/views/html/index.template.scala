@@ -119,6 +119,36 @@ Seq[Any](format.raw/*2.1*/("""
           <li>xxx</li>
           <li>xxx</li>
         </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#governModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="governModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Governance</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="governContent" rows="10">xxx, xxx
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
       </div>
       </div>
       <div class="flex-container-mid">
@@ -265,13 +295,13 @@ Seq[Any](format.raw/*2.1*/("""
 
      <!--
     <aside>
-      """),_display_(/*244.8*/commonSidebar()),format.raw/*244.23*/("""
-    """),format.raw/*245.5*/("""</aside>
+      """),_display_(/*274.8*/commonSidebar()),format.raw/*274.23*/("""
+    """),format.raw/*275.5*/("""</aside>
     -->
   </div>
 </section>
 
-""")))}),format.raw/*250.2*/("""
+""")))}),format.raw/*280.2*/("""
 """)))}))
       }
     }
@@ -289,9 +319,9 @@ Seq[Any](format.raw/*2.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: 042ace1b610cae4b52b9deb2ff7f3129adc2eb83
-                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1058->78|10701->9694|10738->9709|10771->9714|10841->9753
-                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|29->5|268->244|268->244|269->245|274->250
+                  HASH: 357cbd8a8158fcf2798acd113bbb5c836c7bf127
+                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1058->78|11976->10969|12013->10984|12046->10989|12116->11028
+                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|29->5|298->274|298->274|299->275|304->280
                   -- GENERATED --
               */
           
