@@ -1,6 +1,6 @@
 FROM openjdk:8 as stage0
 LABEL snp-multi-stage="intermediate"
-LABEL snp-multi-stage-id="8a02bb0a-c664-4f01-85f7-346fc6e8d452"
+LABEL snp-multi-stage-id="51b9f3d5-be11-4bcc-bd6e-33b0ebe924dc"
 WORKDIR /opt/docker
 COPY opt /opt
 USER root
