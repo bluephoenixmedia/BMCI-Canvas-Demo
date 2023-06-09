@@ -159,6 +159,35 @@ Seq[Any](format.raw/*2.1*/("""
             <li>What are the key components of the technology infrastructure?</li>
             <li>What technologies are unique to the team?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#infraModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="infraModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Infrastructure</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="infraContent" rows="10">What are the key components of the technology infrastructure? What technologies are unique to the team?
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              </div>
+            </div>
         </div>
       </div>
 
@@ -170,6 +199,35 @@ Seq[Any](format.raw/*2.1*/("""
             <li>What methodologies and good practices are being used for conducting work and projects?</li>
             <li>Are there any design methods, such as design thinking and nature-inspired design being used?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#methodModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="methodModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Methodologies</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="methodContent" rows="10">What methodologies and good practices are being used for conducting work and projects? Are there any design methods, such as design thinking and nature-inspired design being used?
+                        </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              </div>
+            </div>
         </div>
       </div>
 
@@ -185,6 +243,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>Organizational Key Players:</li>
             <li>Organizational Stakeholders:</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#peopleModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="peopleModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">People</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="peopleContent" rows="10">Smart Team: [#, names] Orchestrators: Key Players in Team: Community / Team Collective: Organizational Key Players: Organizational Stakeholders:</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -198,6 +284,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>Are all voices heard? Are team members responsive and ideate / problem -solve together effectively?</li>
             <li>What may hinder collaboration and flow of interactions?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#collabModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="collabModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Collaboration Process</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="collabContent" rows="10">What is the collaboration process? How do team members work together? Are all voices heard? Are team members responsive and ideate / problem -solve together effectively? What may hinder collaboration and flow of interactions?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -211,6 +325,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>Physical:
             <li>Virtual:</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#spaceModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="spaceModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Spaces of Interactions</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="spaceContent" rows="10">What are the physical spaces & locations where teams work, collaborate and gather? What virtual spaces are used for teams to interact? Physical: Virtual:</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -222,6 +364,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>How are machines, robotics, AI and data used and leveraged in the system?</li>
             <li>What is unique to the team?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#machinesModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="machinesModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Machines & Data</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="machinesContent" rows="10">How are machines, robotics, AI and data used and leveraged in the system? What is unique to the team?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -233,6 +403,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>What are key collaboration tools being used?</li>
             <li>What other tools may be needed?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#toolsModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="toolsModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Collaboration Tools</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="toolsContent" rows="10">What are key collaboration tools being used? What other tools may be needed?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -245,6 +443,35 @@ Seq[Any](format.raw/*2.1*/("""
             <li>What skills may be missing for optimal team composition?</li>
             <li>What is the optimal number of team members required to achieve goals?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#teamModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="teamModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Team Composition</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="teamContent" rows="10">What is the composition of the team in skills and diversity of backgrounds? What skills may be missing for optimal team composition? What is the optimal number of team members required to achieve goals?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div cl"""),
+format.raw("""ass="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -256,6 +483,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>What kind of culture is fostered in the team? What are the formal and informal rules of engagement?</li>
             <li>Is there open communication and a collaborative approach? Are there opportunities for social interactions?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cultureModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="cultureModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Culture & Rules of Engagement</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="cultureContent" rows="10">What kind of culture is fostered in the team? What are the formal and informal rules of engagement? Is there open communication and a collaborative approach? Are there opportunities for social interactions?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -268,6 +523,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>Are there clusters of interactions? Are there strong or weak bonds within team?</li>
             <li>Are there good connections across other teams?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#dynamicModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="dynamicModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Team Dynamics</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="dynamicContent" rows="10">What are the team dynamics within the team and across other teams? Are there clusters of interactions? Are there strong or weak bonds within team? Are there good connections across other teams?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -279,6 +562,34 @@ Seq[Any](format.raw/*2.1*/("""
             <li>What are the challenges at hand for the team?</li>
             <li>What are the key pain points?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#challengeModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="challengeModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Diagnosis of Challenges / Pains</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="challengesContent" rows="10">What are the challenges at hand for the team?What are the key pain points?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -290,18 +601,41 @@ Seq[Any](format.raw/*2.1*/("""
             <li>What are the desired outcomes of addressing the challenges?</li>
             <li>What are the potential gains and benefits of improvement and transformation?</li>
           </ul>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#outcomesModal">Edit</button>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="outcomesModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Desired Outcomes / Gains</h4>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="content">Update content:</label>
+                      <textarea class="form-control" id="outcomesContent" rows="10">What are the desired outcomes of addressing the challenges? What are the potential gains and benefits of improvement and transformation?</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-     <!--
-    <aside>
-      """),_display_(/*274.8*/commonSidebar()),format.raw/*274.23*/("""
-    """),format.raw/*275.5*/("""</aside>
-    -->
   </div>
 </section>
 
-""")))}),format.raw/*280.2*/("""
+""")))}),format.raw/*613.2*/("""
 """)))}))
       }
     }
@@ -319,9 +653,9 @@ Seq[Any](format.raw/*2.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: 357cbd8a8158fcf2798acd113bbb5c836c7bf127
-                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1058->78|11976->10969|12013->10984|12046->10989|12116->11028
-                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|29->5|298->274|298->274|299->275|304->280
+                  HASH: 5bc433178c4082cd3c3190d84f782252e6908295
+                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1058->78|28851->27820
+                  LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|29->5|638->613
                   -- GENERATED --
               */
           
