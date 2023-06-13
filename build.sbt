@@ -1,5 +1,5 @@
 Docker / maintainer := "Dennis.gotto@gmail.com" // TODO: set your info here
-Docker / packageName := "canvas-demo"
+Docker / packageName := "canvas-dgotto"
 Docker / version := sys.env.getOrElse("BUILD_NUMBER", "0")
 Docker / daemonUserUid  := None
 Docker / daemonUser := "daemon"
@@ -11,7 +11,7 @@ lazy val root = (project in file("."))
   .enablePlugins(PlayScala, AshScriptPlugin)
   .settings(
     version := "1.0-SNAPSHOT",
-    name := """Canvas-Demo""",
+    name := """canvas-dgotto""",
     organization := "com.example",
     version := "1.0",
     scalaVersion := "2.13.0",
