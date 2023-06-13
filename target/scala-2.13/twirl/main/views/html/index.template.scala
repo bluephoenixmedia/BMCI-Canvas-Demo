@@ -322,7 +322,7 @@ Seq[Any](format.raw/*2.1*/("""
           <ul>
             <li>What are the physical spaces & locations where teams work, collaborate and gather?</li>
             <li>What virtual spaces are used for teams to interact?</li>
-            <li>Physical:
+            <li>Physical:</li>
             <li>Virtual:</li>
           </ul>
           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#spaceModal">Edit</button>
@@ -465,8 +465,8 @@ Seq[Any](format.raw/*2.1*/("""
                   </form>
 
                 </div>
-                <div cl"""),
-format.raw("""ass="modal-footer">
+                <d"""),
+format.raw("""iv class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
               </div>
@@ -653,8 +653,8 @@ format.raw("""ass="modal-footer">
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: 5bc433178c4082cd3c3190d84f782252e6908295
-                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1058->78|28851->27820
+                  HASH: 3a7a733383d0f2a220b4df7ee4d10286eba6ce54
+                  MATRIX: 722->1|818->4|845->6|868->21|907->23|934->25|981->64|1031->77|1058->78|28856->27825
                   LINES: 21->1|26->2|27->3|27->3|27->3|28->4|28->4|28->4|29->5|638->613
                   -- GENERATED --
               */
