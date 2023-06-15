@@ -18,3 +18,29 @@
 1686694783734:update
 1686694847398:exit
 1686698473728:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/denni/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/denni/AppData/Roaming/JetBrains/IdeaIC2023.1/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2023.1.0/sbt-structure-extractor-2023.1.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
+1686837863659:docker:publishLocal
+1686837892833:docker images canvas-dgotto
+1686837904289:docker images playground
+1686837910129:docker images
+1686837918234:exit
+1686838121987:reload
+1686838130219:docker:publishLocal
+1686838135738:exit
+1686838867327:reload
+1686838873612:docker:publishLocal
+1686838910116:exit
+1686839005734:reload
+1686839008734:exit
+1686839048189:docker publishLocal
+1686839060820:docker:publishLocal
+1686839068157:exit
+1686839596583:reload
+1686839606390:package
+1686839612473:compile
+1686839626966:docker:publishLocal
+1686839663558:exit
+1686839845457:reload
+1686839853607:docker:publishLocal
+1686839870991:exit
+1686840087753:docker build -t canvas:v1
+1686840150880:exit

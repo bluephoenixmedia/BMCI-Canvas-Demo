@@ -1,3 +1,7 @@
+import com.typesafe.sbt.packager.docker.DockerChmodType
+import com.typesafe.sbt.packager.docker.DockerPermissionStrategy
+dockerChmodType := DockerChmodType.UserGroupWriteExecute
+dockerPermissionStrategy := DockerPermissionStrategy.CopyChown
 Docker / maintainer := "Dennis.gotto@gmail.com" // TODO: set your info here
 Docker / packageName := "canvas-dgotto"
 Docker / version := sys.env.getOrElse("BUILD_NUMBER", "0")
@@ -11,7 +15,7 @@ lazy val root = (project in file("."))
   .enablePlugins(PlayScala, AshScriptPlugin)
   .settings(
     version := "1.0-SNAPSHOT",
-    name := """canvas-dgotto""",
+    name := """Canvas-Demo""",
     organization := "com.example",
     version := "1.0",
     scalaVersion := "2.13.0",
