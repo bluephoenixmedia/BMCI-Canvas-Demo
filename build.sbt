@@ -1,5 +1,5 @@
 lazy val root = (project in file("."))
-  .enablePlugins(PlayScala, AshScriptPlugin)
+  .enablePlugins(PlayScala)
   .settings(
     version := "1.0-SNAPSHOT",
     name := """Canvas-Demo""",
