@@ -5,7 +5,7 @@
 
 
 
-=# An example controller showing a sample home page
+# An example controller showing a sample home page
 +anyhost
 GET     /                                   controllers.HomeController.index()
 GET     /explore                            controllers.HomeController.explore()
