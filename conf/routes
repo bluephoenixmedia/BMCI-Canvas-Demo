@@ -10,7 +10,11 @@
 GET     /                                   controllers.HomeController.index()
 GET     /explore                            controllers.HomeController.explore()
 GET     /tutorial                           controllers.HomeController.tutorial()
-
+GET     /sections                           controllers.SectionsController.list
+POST    /sections                           controllers.SectionsController.create
+GET     /sections/:id                       controllers.SectionsController.details(id:Long)
+PUT     /sections/:id                       controllers.SectionsController.update(id:Long)
+DELETE  /sections/:id                       controllers.SectionsController.delete(id:Long)
 
 # Map static resources from the /public folder to the /assets URL path
 +anyhost
