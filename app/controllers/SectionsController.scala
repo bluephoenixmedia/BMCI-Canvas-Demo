@@ -1,5 +1,6 @@
 package controllers
 
+import play.api.libs.json.Json
 import play.api.mvc.{AbstractController, ControllerComponents}
 
 import javax.inject.Inject
@@ -10,8 +11,18 @@ class SectionsController @Inject()(cc: ControllerComponents) extends AbstractCon
   val list = Action { NotImplemented }
   val create = Action { NotImplemented }
 
-  def details(id:Long) = Action {NotImplemented}
-  def update(id: Long) = Action { NotImplemented}
+  def details(id:Long) = Action {
+    canvasObject.get(id) match {
+      case Some(section) =>
+        Ok(Json.obj(
+          "id" -> section.id,
+          "title" -> section.title,
+          "content" -> section.content
+        ))
+    }
+  }
+
+   def update(id: Long) = Action { NotImplemented}
 
   def delete(id:Long) = Action { NotImplemented}
 
