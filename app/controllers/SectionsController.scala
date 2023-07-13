@@ -13,6 +13,7 @@ class SectionsController @Inject()(cc: ControllerComponents) extends AbstractCon
 
   def details(id:Long) = Action {
     canvasObject.get(id) match {
+      case None => null
       case Some(section) =>
         Ok(Json.obj(
           "id" -> section.id,
@@ -21,6 +22,7 @@ class SectionsController @Inject()(cc: ControllerComponents) extends AbstractCon
         ))
     }
   }
+
 
    def update(id: Long) = Action { NotImplemented}
 
