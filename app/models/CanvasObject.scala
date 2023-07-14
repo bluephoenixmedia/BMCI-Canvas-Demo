@@ -24,8 +24,11 @@ object CanvasObject extends Canvas {
     sections.replace(id, section)
     Some(section)
   }
-
   def delete(id: Long): Boolean = sections.remove(id).isDefined
+
+
+
+
 
 
 }
