@@ -12,23 +12,30 @@ import controllers._
 import play.api.i18n._
 import views.html._
 import play.api.templates.PlayMagic._
-import play.api.mvc._
-import play.api.data._
+import java.lang._
+import java.util._
+import play.core.j.PlayMagicForJava._
+import play.mvc._
+import play.api.data.Field
+import play.data._
+import play.core.j.PlayFormsMagicForJava._
+import scala.jdk.CollectionConverters._
 
 object main extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template2[String,Html,play.twirl.api.HtmlFormat.Appendable] {
 
   /*
- * This template is called from the `index` template. This template
- * handles the rendering of the page header and body tags. It takes
- * two arguments, a `String` for the title of the page and an `Html`
- * object to insert into the body of the page.
- */
+* This template is called from the `index` template. This template
+* handles the rendering of the page header and body tags. It takes
+* two arguments, a `String` for the title of the page and an `Html`
+* object to insert into the body of the page.
+*/
   def apply/*7.2*/(title: String)(content: Html):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*8.1*/("""
+Seq[Any](format.raw/*7.32*/("""
+
 """),format.raw/*9.1*/("""<!DOCTYPE html>
 <html lang="en">
 
@@ -54,13 +61,13 @@ Seq[Any](format.raw/*8.1*/("""
 </head>
 
 <body>
-    <section id="top">
-        <div class="wrapper">
-            <img class="resize" src="assets/images/play_icon_reverse.svg" alt="logo" />
-            <h1>Biomimetic Collective Intelligence Framework: Canvas</h1>
-        </div>
-    </section>
-    """),_display_(/*40.6*/content),format.raw/*40.13*/("""
+<section id="top">
+    <div class="wrapper">
+        <img class="resize" src="assets/images/play_icon_reverse.svg" alt="logo" />
+        <h1>Biomimetic Collective Intelligence Framework: Canvas</h1>
+    </div>
+</section>
+"""),_display_(/*40.2*/content),format.raw/*40.9*/("""
 """),format.raw/*41.1*/("""</body>
 
 </html>"""))
@@ -80,9 +87,9 @@ Seq[Any](format.raw/*8.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/main.scala.html
-                  HASH: 553e6b78138ed3601b2bca8235575ce2d68cf5ae
-                  MATRIX: 987->260|1111->291|1138->292|1218->345|1244->350|1404->483|1419->489|1481->530|1560->582|1575->588|1638->630|1826->791|1841->797|1913->847|2000->907|2015->913|2076->952|2124->973|2139->979|2201->1020|2285->1077|2300->1083|2370->1132|2806->1540|2835->1541|2867->1546|2939->1591|2967->1592|3276->1875|3304->1882|3332->1883
-                  LINES: 26->7|31->8|32->9|36->13|36->13|38->15|38->15|38->15|39->16|39->16|39->16|41->18|41->18|41->18|42->19|42->19|42->19|43->20|43->20|43->20|44->21|44->21|44->21|49->26|49->26|50->27|52->29|52->29|63->40|63->40|64->41
+                  HASH: 94e3cc665c395920038a725e7e463e8b3a530526
+                  MATRIX: 1165->261|1290->291|1320->295|1404->352|1430->357|1592->492|1607->498|1669->539|1749->592|1764->598|1827->640|2017->803|2032->809|2104->859|2192->920|2207->926|2268->965|2317->987|2332->993|2394->1034|2479->1092|2494->1098|2564->1147|3005->1560|3034->1561|3067->1567|3141->1614|3169->1615|3461->1881|3488->1888|3517->1890
+                  LINES: 32->7|37->7|39->9|43->13|43->13|45->15|45->15|45->15|46->16|46->16|46->16|48->18|48->18|48->18|49->19|49->19|49->19|50->20|50->20|50->20|51->21|51->21|51->21|56->26|56->26|57->27|59->29|59->29|70->40|70->40|71->41
                   -- GENERATED --
               */
           

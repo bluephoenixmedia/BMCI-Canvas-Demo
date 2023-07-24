@@ -1,19 +1,19 @@
-lazy val root = (project in file("."))
-  .enablePlugins(PlayScala)
-  .settings(
-    version := "1.0-SNAPSHOT",
-    name := """Canvas-Demo""",
-    organization := "com.example",
-    version := "1.0",
-    scalaVersion := "2.13.0",
-    libraryDependencies ++= Seq(
-      guice,
-      "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
-    ),
+name := """canvas"""
 
-    scalacOptions ++= Seq(
-      "-feature",
-      "-deprecation",
-      "-Xfatal-warnings"
-    )
-  )
+version := "1.0-SNAPSHOT"
+
+lazy val root = (project in file(".")).enablePlugins(PlayJava)
+
+scalaVersion := "2.13.11"
+
+(Test / testOptions) := Seq(Tests.Argument(TestFrameworks.JUnit, "-a", "-v"))
+
+libraryDependencies += guice
+
+// disabled until https://github.com/playframework/playframework/issues/9845 is solved
+//scalacOptions ++= List("-encoding", "utf8", "-Xfatal-warnings", "-deprecation")
+javacOptions ++= Seq(
+  "-Xlint:unchecked",
+  "-Xlint:deprecation",
+  "-Werror"
+) 

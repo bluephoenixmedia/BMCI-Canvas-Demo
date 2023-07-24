@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Canvas-Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Canvas-Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Canvas-Demo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Canvas-Demo-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canvas.iml" filepath="$PROJECT_DIR$/.idea/modules/canvas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canvas-build.iml" filepath="$PROJECT_DIR$/.idea/modules/canvas-build.iml" />
     </modules>
   </component>
 </project>
