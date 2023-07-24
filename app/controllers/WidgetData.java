@@ -12,28 +12,27 @@ import play.data.validation.Constraints;
 public class WidgetData {
 
     @Constraints.Required
-    private String name;
+    private String title;
 
-    @Constraints.Min(0)
-    private int price;
+    private String content;
 
     public WidgetData() {
     }
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String name) {
+        this.title = title;
     }
 
-    public int getPrice() {
-        return price;
+    public String getContent() {
+        return content;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public void setContent(String content) {
+        this.content = content;
     }
 
 }

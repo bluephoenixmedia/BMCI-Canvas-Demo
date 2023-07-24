@@ -8,11 +8,12 @@ package models;
  * which are used for writes.
  */
 public class Widget {
-    public String name;
-    public int price;
+    public String title;
+    public String content;
 
-    public Widget(String name, int price) {
-        this.name = name;
-        this.price = price;
+    public Widget(String title, String content) {
+        this.title = title;
+        this.content = content;
+
     }
 }
