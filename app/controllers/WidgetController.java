@@ -39,14 +39,16 @@ public class WidgetController extends Controller {
         );
     }
 
-    public Result index() {
-        return ok(views.html.index.render());
+    public Result index(Http.Request request) {
+        return ok(views.html.index.render(asScala(widgets), form, request, messagesApi.preferred(request)));
     }
 
+    /*
     public Result listWidgets(Http.Request request) {
         return ok(views.html.listWidgets.render(asScala(widgets), form, request, messagesApi.preferred(request)));
-    }
+    }*/
 
+    /*
     public Result createWidget(Http.Request request) {
         final Form<WidgetData> boundForm = form.bindFromRequest(request);
 
@@ -56,8 +58,8 @@ public class WidgetController extends Controller {
         } else {
             WidgetData data = boundForm.get();
             widgets.add(new Widget(data.getTitle(), data.getContent()));
-            return redirect(routes.WidgetController.listWidgets())
+            return redirect(routes.HomeController.listWidgets())
                 .flashing("info", "Widget added!");
         }
-    }
+    }*/
 }

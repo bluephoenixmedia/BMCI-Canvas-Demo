@@ -20,20 +20,21 @@ import play.api.data.Field
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
 import scala.jdk.CollectionConverters._
+/*1.2*/import play.mvc.Http.Request
 
-object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
+object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template4[Seq[Widget],Form[WidgetData],Request,play.i18n.Messages,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/():play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*2.2*/(widgets: Seq[Widget], form: Form[WidgetData])(implicit request: Request, messages: play.i18n.Messages):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*1.4*/("""
+Seq[Any](format.raw/*2.105*/("""
+"""),_display_(/*3.2*/main("Widgets")/*3.17*/ {_display_(Seq[Any](format.raw/*3.19*/("""
 
-"""),_display_(/*3.2*/main("Welcome")/*3.17*/ {_display_(Seq[Any](format.raw/*3.19*/("""
-"""),_display_(/*4.2*/defining(play.core.PlayVersion.current)/*4.41*/ { version =>_display_(Seq[Any](format.raw/*4.54*/("""
-"""),format.raw/*5.1*/("""<section id="content">
+
+"""),format.raw/*6.1*/("""<section id="content">
   <div class="wrapper">
 
 
@@ -642,15 +643,15 @@ format.raw("""nt</strong><br /><br />
   </div>
 </section>
 
-""")))}),format.raw/*613.2*/("""
-""")))}))
+""")))}),format.raw/*614.2*/("""
+"""))
       }
     }
   }
 
-  def render(): play.twirl.api.HtmlFormat.Appendable = apply()
+  def render(widgets:Seq[Widget],form:Form[WidgetData],request:Request,messages:play.i18n.Messages): play.twirl.api.HtmlFormat.Appendable = apply(widgets,form)(request,messages)
 
-  def f:(() => play.twirl.api.HtmlFormat.Appendable) = () => apply()
+  def f:((Seq[Widget],Form[WidgetData]) => (Request,play.i18n.Messages) => play.twirl.api.HtmlFormat.Appendable) = (widgets,form) => (request,messages) => apply(widgets,form)(request,messages)
 
   def ref: this.type = this
 
@@ -660,9 +661,9 @@ format.raw("""nt</strong><br /><br />
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: 787c3494d6ff3bd84e6a6844dbbbace7979c5910
-                  MATRIX: 900->1|996->3|1026->8|1049->23|1088->25|1116->28|1163->67|1213->80|1241->82|28509->27299
-                  LINES: 27->1|32->1|34->3|34->3|34->3|35->4|35->4|35->4|36->5|645->613
+                  HASH: 5c8eafad63d6d59b928b3a938fbdafa7c5a4b362
+                  MATRIX: 610->1|992->32|1191->135|1219->138|1242->153|1281->155|1313->161|28581->27378
+                  LINES: 23->1|28->2|33->2|34->3|34->3|34->3|37->6|646->614
                   -- GENERATED --
               */
           

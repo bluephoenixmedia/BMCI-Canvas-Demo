@@ -13,25 +13,25 @@ import _root_.play.libs.F
 
 class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
-  // @LINE:6
-  WidgetController_0: controllers.WidgetController,
-  // @LINE:13
+  // @LINE:7
+  HomeController_0: controllers.HomeController,
+  // @LINE:15
   Assets_1: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
 
    @javax.inject.Inject()
    def this(errorHandler: play.api.http.HttpErrorHandler,
-    // @LINE:6
-    WidgetController_0: controllers.WidgetController,
-    // @LINE:13
+    // @LINE:7
+    HomeController_0: controllers.HomeController,
+    // @LINE:15
     Assets_1: controllers.Assets
-  ) = this(errorHandler, WidgetController_0, Assets_1, "/")
+  ) = this(errorHandler, HomeController_0, Assets_1, "/")
 
   def withPrefix(addPrefix: String): Routes = {
     val prefix = play.api.routing.Router.concatPrefix(addPrefix, this.prefix)
     router.RoutesPrefix.setPrefix(prefix)
-    new Routes(errorHandler, WidgetController_0, Assets_1, prefix)
+    new Routes(errorHandler, HomeController_0, Assets_1, prefix)
   }
 
   private[this] val defaultPrefix: String = {
@@ -39,9 +39,9 @@ class Routes(
   }
 
   def documentation = List(
-    ("""GET""", this.prefix, """controllers.WidgetController.index"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """widgets""", """controllers.WidgetController.listWidgets(request:Request)"""),
-    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """widgets""", """controllers.WidgetController.createWidget(request:Request)"""),
+    ("""GET""", this.prefix, """controllers.HomeController.index(request:Request)"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """widgets""", """controllers.HomeController.listWidgets(request:Request)"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """widgets""", """controllers.HomeController.createWidget(request:Request)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -50,17 +50,19 @@ class Routes(
   }}
 
 
-  // @LINE:6
-  private[this] lazy val controllers_WidgetController_index0_route = Route("GET",
+  // @LINE:7
+  private[this] lazy val controllers_HomeController_index0_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix)))
   )
-  private[this] lazy val controllers_WidgetController_index0_invoker = createInvoker(
-    WidgetController_0.index,
+  private[this] lazy val controllers_HomeController_index0_invoker = createInvoker(
+    
+    (req:play.mvc.Http.Request) =>
+      HomeController_0.index(fakeValue[play.mvc.Http.Request]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.WidgetController",
+      "controllers.HomeController",
       "index",
-      Nil,
+      Seq(classOf[play.mvc.Http.Request]),
       "GET",
       this.prefix + """""",
       """ Home page""",
@@ -68,17 +70,17 @@ class Routes(
     )
   )
 
-  // @LINE:9
-  private[this] lazy val controllers_WidgetController_listWidgets1_route = Route("GET",
+  // @LINE:10
+  private[this] lazy val controllers_HomeController_listWidgets1_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("widgets")))
   )
-  private[this] lazy val controllers_WidgetController_listWidgets1_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_listWidgets1_invoker = createInvoker(
     
     (req:play.mvc.Http.Request) =>
-      WidgetController_0.listWidgets(fakeValue[play.mvc.Http.Request]),
+      HomeController_0.listWidgets(fakeValue[play.mvc.Http.Request]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.WidgetController",
+      "controllers.HomeController",
       "listWidgets",
       Seq(classOf[play.mvc.Http.Request]),
       "GET",
@@ -88,17 +90,17 @@ class Routes(
     )
   )
 
-  // @LINE:10
-  private[this] lazy val controllers_WidgetController_createWidget2_route = Route("POST",
+  // @LINE:11
+  private[this] lazy val controllers_HomeController_createWidget2_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("widgets")))
   )
-  private[this] lazy val controllers_WidgetController_createWidget2_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_createWidget2_invoker = createInvoker(
     
     (req:play.mvc.Http.Request) =>
-      WidgetController_0.createWidget(fakeValue[play.mvc.Http.Request]),
+      HomeController_0.createWidget(fakeValue[play.mvc.Http.Request]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
-      "controllers.WidgetController",
+      "controllers.HomeController",
       "createWidget",
       Seq(classOf[play.mvc.Http.Request]),
       "POST",
@@ -108,7 +110,7 @@ class Routes(
     )
   )
 
-  // @LINE:13
+  // @LINE:15
   private[this] lazy val controllers_Assets_versioned3_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
@@ -129,27 +131,28 @@ class Routes(
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
-    // @LINE:6
-    case controllers_WidgetController_index0_route(params@_) =>
+    // @LINE:7
+    case controllers_HomeController_index0_route(params@_) =>
       call { 
-        controllers_WidgetController_index0_invoker.call(WidgetController_0.index)
-      }
-  
-    // @LINE:9
-    case controllers_WidgetController_listWidgets1_route(params@_) =>
-      call { 
-        controllers_WidgetController_listWidgets1_invoker.call(
-          req => WidgetController_0.listWidgets(req))
+        controllers_HomeController_index0_invoker.call(
+          req => HomeController_0.index(req))
       }
   
     // @LINE:10
-    case controllers_WidgetController_createWidget2_route(params@_) =>
+    case controllers_HomeController_listWidgets1_route(params@_) =>
       call { 
-        controllers_WidgetController_createWidget2_invoker.call(
-          req => WidgetController_0.createWidget(req))
+        controllers_HomeController_listWidgets1_invoker.call(
+          req => HomeController_0.listWidgets(req))
       }
   
-    // @LINE:13
+    // @LINE:11
+    case controllers_HomeController_createWidget2_route(params@_) =>
+      call { 
+        controllers_HomeController_createWidget2_invoker.call(
+          req => HomeController_0.createWidget(req))
+      }
+  
+    // @LINE:15
     case controllers_Assets_versioned3_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned3_invoker.call(Assets_1.versioned(path, file))

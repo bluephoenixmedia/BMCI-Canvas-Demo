@@ -7,20 +7,20 @@ import play.api.routing.JavaScriptReverseRoute
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
 
-// @LINE:6
+// @LINE:7
 package controllers.javascript {
 
-  // @LINE:6
-  class ReverseWidgetController(_prefix: => String) {
+  // @LINE:7
+  class ReverseHomeController(_prefix: => String) {
 
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:6
+    // @LINE:7
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.WidgetController.index",
+      "controllers.HomeController.index",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + """"})
@@ -28,9 +28,9 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:9
+    // @LINE:10
     def listWidgets: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.WidgetController.listWidgets",
+      "controllers.HomeController.listWidgets",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "widgets"})
@@ -38,9 +38,9 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:10
+    // @LINE:11
     def createWidget: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.WidgetController.createWidget",
+      "controllers.HomeController.createWidget",
       """
         function() {
           return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "widgets"})
@@ -50,7 +50,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:13
+  // @LINE:15
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -58,7 +58,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:15
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

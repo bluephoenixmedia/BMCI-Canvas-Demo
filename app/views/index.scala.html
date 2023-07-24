@@ -1,7 +1,8 @@
-@()
+@import play.mvc.Http.Request
+@(widgets: Seq[Widget], form: Form[WidgetData])(implicit request: Request, messages: play.i18n.Messages)
+@main("Widgets") {
 
-@main("Welcome") {
-@defining(play.core.PlayVersion.current) { version =>
+
 <section id="content">
   <div class="wrapper">
 
@@ -610,5 +611,4 @@
   </div>
 </section>
 
-}
 }
